@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Código em Javascript</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        body {
+            background-color: bisque;
+            color: rgb(97, 54, 2);
+            font: normal 25px arial;
+        }
+        h1, p {
+            padding: 40px 40px 0px 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Tô livre da maldição!</p>
+    <script>
+
+        
+        var nickname = window.prompt('Qual seu apelido?')//string
+        var nome = window.prompt('Qual seu nome?')//String
+        window.alert(`Seja bem-vindo, ${nome} vulgo ${nickname}.`)//Concatenação
+        
+
+        var n1 = Number(window.prompt('digite um número'))
+        var n2 = Number(window.prompt('Digite another number'))
+        var soma = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`)
+
+        /*
+        (number + number) para adição
+        (string + string) para concatenação
+        */
+
+    </script>
+</body>
+</html>
